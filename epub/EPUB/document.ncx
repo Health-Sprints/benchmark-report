@@ -157,10 +157,6 @@
               <navLabel><text>Web URLs; Internal Fidus Writer document links, Anchors</text></navLabel>
               <content src="document-5.xhtml#H4364111" />
             </navPoint>
-            <navPoint id="tH284583-5">
-              <navLabel><text>Text formatting: bold, italic, underline</text></navLabel>
-              <content src="document-5.xhtml#H284583" />
-            </navPoint>
             <navPoint id="tH758728-5">
               <navLabel><text>Blockquote</text></navLabel>
               <content src="document-5.xhtml#H758728" />
