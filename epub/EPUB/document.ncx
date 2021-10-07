@@ -36,6 +36,146 @@
         <navLabel><text>Foreword</text></navLabel>
         <content src="document-4.xhtml#_4_0" />
       </navPoint>
+    </navPoint>
+    <navPoint id="t0-5">
+      <navLabel><text>booktext</text></navLabel>
+      <content src="document-5.xhtml" />
+      <navPoint id="t_5_0-5">
+        <navLabel><text>Text Section (Chapter 1)</text></navLabel>
+        <content src="document-5.xhtml#_5_0" />
+        <navPoint id="tH8148042-5">
+          <navLabel><text>Subtitle (inserted text): One of three test sections.</text></navLabel>
+          <content src="document-5.xhtml#H8148042" />
+          <navPoint id="tH1003956-5">
+            <navLabel><text>What you will find in this section:</text></navLabel>
+            <content src="document-5.xhtml#H1003956" />
+          </navPoint>
+          <navPoint id="tH1581297-5">
+            <navLabel><text>Start of text</text></navLabel>
+            <content src="document-5.xhtml#H1581297" />
+            <navPoint id="tH2736763-5">
+              <navLabel><text>Lists</text></navLabel>
+              <content src="document-5.xhtml#H2736763" />
+              <navPoint id="tH1860783-5">
+                <navLabel><text>Ordered list:</text></navLabel>
+                <content src="document-5.xhtml#H1860783" />
+              </navPoint>
+              <navPoint id="tH3077438-5">
+                <navLabel><text>Indented Ordered list:</text></navLabel>
+                <content src="document-5.xhtml#H3077438" />
+              </navPoint>
+              <navPoint id="tH8642363-5">
+                <navLabel><text>Ordered list:</text></navLabel>
+                <content src="document-5.xhtml#H8642363" />
+              </navPoint>
+              <navPoint id="tH6844251-5">
+                <navLabel><text>Ordered list two - with start number set as 5 using the Fidus Writer setting:</text></navLabel>
+                <content src="document-5.xhtml#H6844251" />
+              </navPoint>
+              <navPoint id="tH8647294-5">
+                <navLabel><text>Indented ordered list</text></navLabel>
+                <content src="document-5.xhtml#H8647294" />
+              </navPoint>
+            </navPoint>
+            <navPoint id="tH1635418-5">
+              <navLabel><text>Text</text></navLabel>
+              <content src="document-5.xhtml#H1635418" />
+            </navPoint>
+            <navPoint id="tH6880234-5">
+              <navLabel><text>Headers and normal text styles</text></navLabel>
+              <content src="document-5.xhtml#H6880234" />
+            </navPoint>
+          </navPoint>
+        </navPoint>
+        <navPoint id="tH4490657-5">
+          <navLabel><text>Header 1</text></navLabel>
+          <content src="document-5.xhtml#H4490657" />
+          <navPoint id="tH8419696-5">
+            <navLabel><text>Header 2</text></navLabel>
+            <content src="document-5.xhtml#H8419696" />
+            <navPoint id="tH8916798-5">
+              <navLabel><text>Header 3</text></navLabel>
+              <content src="document-5.xhtml#H8916798" />
+              <navPoint id="tH7079173-5">
+                <navLabel><text>Header 4</text></navLabel>
+                <content src="document-5.xhtml#H7079173" />
+                <navPoint id="tH2991838-5">
+                  <navLabel><text>Header 5</text></navLabel>
+                  <content src="document-5.xhtml#H2991838" />
+                  <navPoint id="tH2402273-5">
+                    <navLabel><text>Headers 6</text></navLabel>
+                    <content src="document-5.xhtml#H2402273" />
+                  </navPoint>
+                </navPoint>
+              </navPoint>
+            </navPoint>
+            <navPoint id="tH2805208-5">
+              <navLabel><text>Code style</text></navLabel>
+              <content src="document-5.xhtml#H2805208" />
+            </navPoint>
+            <navPoint id="tH9315252-5">
+              <navLabel><text>Text formats</text></navLabel>
+              <content src="document-5.xhtml#H9315252" />
+            </navPoint>
+            <navPoint id="tH607067-5">
+              <navLabel><text>Images</text></navLabel>
+              <content src="document-5.xhtml#H607067" />
+              <navPoint id="tH415836-5">
+                <navLabel><text>Image with caption, as figure</text></navLabel>
+                <content src="document-5.xhtml#H415836" />
+              </navPoint>
+              <navPoint id="tH9577977-5">
+                <navLabel><text>Image with caption, not figure</text></navLabel>
+                <content src="document-5.xhtml#H9577977" />
+              </navPoint>
+              <navPoint id="tH166321-5">
+                <navLabel><text>Image with caption, as photo, no caption</text></navLabel>
+                <content src="document-5.xhtml#H166321" />
+              </navPoint>
+            </navPoint>
+            <navPoint id="tH1357540-5">
+              <navLabel><text>Images</text></navLabel>
+              <content src="document-5.xhtml#H1357540" />
+            </navPoint>
+            <navPoint id="tH8876846-5">
+              <navLabel><text>Tables</text></navLabel>
+              <content src="document-5.xhtml#H8876846" />
+            </navPoint>
+            <navPoint id="tH225619-5">
+              <navLabel><text>Math</text></navLabel>
+              <content src="document-5.xhtml#H225619" />
+            </navPoint>
+            <navPoint id="tH7100180-5">
+              <navLabel><text>References</text></navLabel>
+              <content src="document-5.xhtml#H7100180" />
+            </navPoint>
+            <navPoint id="tH7237703-5">
+              <navLabel><text>Footnotes</text></navLabel>
+              <content src="document-5.xhtml#H7237703" />
+            </navPoint>
+            <navPoint id="tH4364111-5">
+              <navLabel><text>Web URLs; Internal Fidus Writer document links, Anchors</text></navLabel>
+              <content src="document-5.xhtml#H4364111" />
+            </navPoint>
+            <navPoint id="tH284583-5">
+              <navLabel><text>Text formatting: bold, italic, underline</text></navLabel>
+              <content src="document-5.xhtml#H284583" />
+            </navPoint>
+            <navPoint id="tH758728-5">
+              <navLabel><text>Blockquote</text></navLabel>
+              <content src="document-5.xhtml#H758728" />
+            </navPoint>
+            <navPoint id="tH3595888-5">
+              <navLabel><text>Copyright information using Fidus Writer document information setting</text></navLabel>
+              <content src="document-5.xhtml#H3595888" />
+            </navPoint>
+            <navPoint id="tH5763006-5">
+              <navLabel><text>Language settings</text></navLabel>
+              <content src="document-5.xhtml#H5763006" />
+            </navPoint>
+          </navPoint>
+        </navPoint>
+      </navPoint>
       <navPoint id="t2">
         <navLabel><text>Copyright</text></navLabel>
         <content src="copyright.xhtml#copyright" />
