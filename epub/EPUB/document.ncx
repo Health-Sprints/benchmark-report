@@ -18,7 +18,7 @@
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t0-1">
-      <navLabel><text>Front matter</text></navLabel>
+      <navLabel><text>section-frontmatter</text></navLabel>
       <content src="document-1.xhtml" />
       <navPoint id="t_1_0-1">
         <navLabel><text>Copyright Page</text></navLabel>
@@ -38,7 +38,7 @@
       </navPoint>
     </navPoint>
     <navPoint id="t0-5">
-      <navLabel><text>booktext</text></navLabel>
+      <navLabel><text>section-booktext</text></navLabel>
       <content src="document-5.xhtml" />
       <navPoint id="t_5_0-5">
         <navLabel><text>Text Section (Chapter 1)</text></navLabel>
