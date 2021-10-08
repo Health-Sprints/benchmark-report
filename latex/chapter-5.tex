@@ -1,3 +1,7 @@
+% © 2021 The Author
+% https://creativecommons.org/publicdomain/zero/1.0/
+
+
 \documentclass{article}
 
                 
@@ -23,6 +27,7 @@
                 
 \makeatother
             
+\usepackage{hyperref}
 \usepackage{caption}
 \usepackage{wrapfig}
                 
@@ -136,7 +141,7 @@ Document set as US English. Doc style Comfy Elephant. Citation style CMOS Author
 
 \subsection{Start of text}\label{H1581297}
 
-
+\texorpdfstring{\protect\hypertarget{H1581297}{}}{}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim diam. Aliquam erat volutpat. Ut commodo nibh ut maximus sodales. Mauris a enim non neque bibendum tincidunt at et eros. Nunc sed rutrum nibh. Nam vulputate pharetra velit euismod ullamcorper. Duis nec ligula nec magna facilisis luctus. Aliquam id accumsan leo. Etiam at velit vulputate, consequat leo id, imperdiet ante. Integer eget ornare turpis, eu convallis velit.
 
@@ -563,7 +568,7 @@ Equation as image:
 
 
 
-Nam eleifend augue sit amet faucibus accumsan. Sed felis mi, rutrum sed diam id, ultrices sodales dui. Sed consectetur sagittis lectus vitae interdum. Nulla finibus, quam id suscipit ultrices, dui purus commodo mi, at faucibus dolor sapien eu urna. Quisque cursus, velit vel sollicitudin pellentesque, magna justo euismod tellus, molestie mollis enim ligula id magna.\autocite{https://doi.org/10.15463/rec.799967328} Maecenas varius orci ligula, et posuere massa aliquet vel. Integer pellentesque interdum convallis. Pellentesque lobortis nulla eu ligula sagittis, sed eleifend neque ultricies. Etiam venenatis arcu diam, non pharetra arcu iaculis sit amet. Sed eros odio, pellentesque sed tellus quis, aliquet ullamcorper turpis. Quisque eu aliquam sapien. Curabitur dapibus, metus sit amet varius venenatis, nisi odio lacinia tortor, non elementum felis mauris vehicula diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec turpis nec ligula condimentum hendrerit. Curabitur posuere tortor id odio ullamcorper, sed viverra nisi fringilla.
+Nam eleifend augue sit amet faucibus accumsan. Sed felis mi, rutrum sed diam id, ultrices sodales dui. Sed consectetur sagittis lectus vitae interdum. Nulla finibus, quam id suscipit ultrices, dui purus commodo mi, at faucibus dolor sapien eu urna. Quisque cursus, velit vel sollicitudin pellentesque, magna justo euismod tellus, molestie mollis enim ligula id magna.\autocite{https://doi.org/10.15463/rec.799967328} Maecenas varius orci ligula, et posuere massa aliquet vel. Integer pellentesque interdum convallis. Pellentesque lobortis nulla eu ligula sagittis, sed eleifend neque ultricies. Etiam venenatis arcu diam, non pharetra arcu iaculis sit amet.\autocite{Williams_2020} Sed eros odio, pellentesque sed tellus quis, aliquet ullamcorper turpis. Quisque eu aliquam sapien. Curabitur dapibus, metus sit amet varius venenatis, nisi odio lacinia tortor, non elementum felis mauris vehicula diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec turpis nec ligula condimentum hendrerit. Curabitur posuere tortor id odio ullamcorper, sed viverra nisi fringilla.\autocite{https://doi.org/10.15463/rec.612893388}
 
 
 Nulla eget rhoncus urna. Fusce ultricies quam vel tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum venenatis lacus sit amet vestibulum aliquam. Suspendisse lobortis nisl sed libero gravida rhoncus. Suspendisse vestibulum eros ac mi tempor, vitae faucibus odio bibendum. Nam viverra mauris auctor blandit euismod. Vestibulum dapibus justo elementum lobortis fermentum.
@@ -573,7 +578,10 @@ Nulla eget rhoncus urna. Fusce ultricies quam vel tempor tristique. Pellentesque
 
 
 
-Nam eleifend augue sit amet faucibus accumsan. Sed felis mi, rutrum sed diam id, ultrices sodales dui. Sed consectetur sagittis lectus vitae interdum. Nulla finibus, quam id suscipit ultrices, dui purus commodo mi, at faucibus dolor sapien eu urna. Quisque cursus, velit vel sollicitudin pellentesque, magna justo euismod tellus, molestie mollis enim ligula id magna. Maecenas varius orci ligula, et posuere massa aliquet vel. Integer pellentesque interdum convallis. Pellentesque lobortis nulla eu ligula sagittis, sed eleifend neque ultricies. Etiam venenatis arcu diam, non pharetra arcu iaculis sit amet. Sed eros odio, pellentesque sed tellus quis, aliquet ullamcorper turpis. Quisque eu aliquam sapien. Curabitur dapibus, metus sit amet varius venenatis, nisi odio lacinia tortor, non elementum felis mauris vehicula diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec turpis nec ligula condimentum hendrerit. Curabitur posuere tortor id odio ullamcorper, sed viverra nisi fringilla.
+Nam eleifend augue sit amet faucibus accumsan. Sed felis mi, rutrum sed diam id, ultrices sodales dui. Sed consectetur sagittis lectus vitae interdum. Nulla finibus, quam id suscipit ultrices, dui purus commodo mi, at faucibus dolor sapien eu urna. Quisque cursus, velit vel sollicitudin pellentesque, magna justo euismod tellus, molestie mollis enim ligula id magna.\footnote{A single paragraph note.} Maecenas varius orci ligula, et posuere massa aliquet vel. Integer pellentesque interdum convallis. Pellentesque lobortis nulla eu ligula sagittis, sed eleifend neque ultricies. Etiam venenatis arcu diam, non pharetra arcu iaculis sit amet. Sed eros odio, pellentesque sed tellus quis, aliquet ullamcorper turpis.\footnote{A double paragraph note.
+
+
+Paragraph two.} Quisque eu aliquam sapien. Curabitur dapibus, metus sit amet varius venenatis, nisi odio lacinia tortor, non elementum felis mauris vehicula diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec turpis nec ligula condimentum hendrerit. Curabitur posuere tortor id odio ullamcorper, sed viverra nisi fringilla.\footnote{A note with a citation in it?\autocite{https://doi.org/10.15463/rec.612893388}}
 
 
 Nulla eget rhoncus urna. Fusce ultricies quam vel tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum venenatis lacus sit amet vestibulum aliquam. Suspendisse lobortis nisl sed libero gravida rhoncus. Suspendisse vestibulum eros ac mi tempor, vitae faucibus odio bibendum. Nam viverra mauris auctor blandit euismod. Vestibulum dapibus justo elementum lobortis fermentum.
@@ -583,28 +591,40 @@ Nulla eget rhoncus urna. Fusce ultricies quam vel tempor tristique. Pellentesque
 
 
 
+URL The historian \href{https://www.marcusrediker.com/}{Marcus Rediker}.
 
+
+Internal link in the document to a \hyperlink{H1581297}{header anchor} and to an \hyperlink{A746704}{anchor}.
+
+
+Anchor
 
 
 \subsubsection{Blockquote}\label{H758728}
 
 
+\begin{quote}
 
 
+
+Here below is the full list of ten books that have shaped my life – one basketball book, one joke book, one autobiography, three novels, and four history books. One never knows which books will change your life and therein lies one of the greatest joys of reading. \href{https://t.co/biMVo4ylZL}{https://t.co/biMVo4ylZL}
+
+
+\end{quote}
 
 
 \subsubsection{Copyright information using Fidus Writer document information setting}\label{H3595888}
 
 
 
-
+Document set to CC0, 2021, The Author.
 
 
 \subsubsection{Language settings}\label{H5763006}
 
 
 
-
+Document set to US English.
 
 
 \printbibliography[title={Bibliography}]
