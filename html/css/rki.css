@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
 @page {
     size: 6in 9in;
     @bottom-center {
@@ -51,28 +52,7 @@
   }
 }
 
-/*@page frontmatter {
-  color: blue;
-  @bottom-center {
-    content: none;
-  }
-}
-
-.frontmatter {
-    page:frontmatter;
-    color: green;
-}*/
-
-@page :blank {
-	@bottom-left { content: normal; }
-  @bottom-center { content: normal; }
-	@bottom-right { content: normal; }
-	@top-center { content: normal; }
-  @top-left { content: normal; }
-  @top-right { content: normal; }
-}
-
-
+/* Extra pages */
 
 @page tocpage {
   color: red;
@@ -85,14 +65,37 @@
     page:tocpage;
 }
 
+@page frontmatter {
+  color: red;
+  @bottom-center {
+    content: counter(page, lower-roman)
+  }
+}
 
+.frontmatter, .sectionfrontmatter  {
+    page: frontmatter;
+}
 
+@page booktext {
+  color: blue;
+  @bottom-center {
+    content: counter-reset: page;
+  }
+}
+.sectionbooktext{
+    page:booktext;
+}
 
-/*@page frontmatter {
-  @top-center { content: normal; }
+@page :blank {
+	@bottom-left { content: normal; }
   @bottom-center { content: normal; }
-}*/
+	@bottom-right { content: normal; }
+	@top-center { content: normal; }
+  @top-left { content: normal; }
+  @top-right { content: normal; }
+}
 
+/* Title page */
 
 .titlepage {
     text-align: center;
@@ -116,6 +119,8 @@
     display: none;
 }
 
+/* Start main */
+
 .user-contents {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -131,7 +136,7 @@
 .article-title {
     font-family: 'Sora', sans-serif;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 600;
     color: #003F97;
     margin-top: 2em;
 }
@@ -141,7 +146,7 @@
 
 .article-subtitle {
     font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 900;
 }
 
